@@ -22,12 +22,19 @@
 .mapa-do-site-para-celulares{
     display: none;
 }
+.pagamentos-celulares{
+    display: none;
+}
 
 /* Invisibilidade do banner de celular */
 .banner-celular{
     display: none;
 }
 
+/* Invisibilidade botão Veja Mais */
+.botao-veja-mais{
+    display: none;
+}
 
 /* LAYOUT PARA DESKTOP*/
 /* CABEÇALHO */
@@ -550,6 +557,9 @@ header {
     }
 
     /* FOOTER */
+    .pagamentos{
+        display: none;
+    }
     .mapa-do-site-para-tablets{
         display: none;
     }
@@ -605,7 +615,8 @@ header {
         width: 58px;
         height: 58px;
     }
-    .pagamentos{
+    .pagamentos-celulares{
+        display:flex;
         flex-direction: column;
         margin-left: 0px;
         margin-right: 0px;
