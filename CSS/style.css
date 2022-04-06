@@ -618,8 +618,7 @@ header {
     .pagamentos-celulares{
         display:flex;
         flex-direction: column;
-        margin-left: 0px;
-        margin-right: 0px;
+        align-items: center;
     }
     .primeira-fileira-pagamentos{
         height: 45px;
