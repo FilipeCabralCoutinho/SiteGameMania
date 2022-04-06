@@ -437,7 +437,7 @@ header {
 
     /* BANNER */
     .banner-celular{
-        display: flex;
+        display: block;
     }
     .banner{
         display: none;
