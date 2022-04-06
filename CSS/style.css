@@ -1,0 +1,629 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* INVISIVEL */
+/* Invisibilidade da logo para dispositivos de telas menores */
+.logo-sem-texto{
+    display: none;
+}
+
+/* Invisibilidade do menu de barras */
+.menu-de-barras{
+    display: none;
+}
+
+/* Invisibilidade do footer de dispositivos de telas menores */
+.mapa-do-site-para-tablets{
+    display: none;
+}
+.mapa-do-site-para-celulares{
+    display: none;
+}
+
+/* Invisibilidade do banner de celular */
+.banner-celular{
+    display: none;
+}
+
+
+/* LAYOUT PARA DESKTOP*/
+/* CABEÇALHO */
+header {
+    height: 126px;
+    background-color: #292E1E;
+    width: 100%;
+}
+.cabeçalho{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: center;
+}
+
+/* MENU */
+.menu{
+    width: 737px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* MAIN */
+.fundo-main{
+    height: 1983px;
+    width: 100%;
+    background-color: #292E1E;
+}
+
+/* DESTAQUES */
+.destaques{
+    height: 541px;
+}
+.destaques h1{
+    font-weight: 700;
+}
+.texto-destaques{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    text-align: center;
+}
+.imagens-destaques{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.img-destaque{
+    width: 304px;
+    height: 394px;
+    background-color: #AFBBF2;    
+}
+.img-destaque img{
+    display: flex;
+    justify-content: space-between;
+}
+.img-destaque a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Readex Pro';
+    color: white;
+
+    background-color: #292E1E;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;  
+}
+.img-destaque h2{
+    font-size: 37px;
+    color: #292E1E;
+    font-family: 'Readex Pro';
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+}
+.img-destaque h4{
+    font-size: 18px;
+    text-decoration-line: line-through;
+    color: #292E1E;
+    line-height: 0.7;
+}
+.preco{
+    display: flex;
+    justify-content: flex-end;
+}
+.ate-dez{
+    display: flex;
+    justify-content: center;
+}
+.alinhamento-comprar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* NOVIDADES */
+.novidades{
+    display: flex;
+    justify-content: center;
+}
+.fundo-novidades{
+    background: #AFBBF2;
+    width: 1250px;
+    height: 506px;
+}
+.titulo-novidades{
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: 'Readex Pro';
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #292E1E;
+}
+.alinhamento-conteudo-novidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.conteudo-novidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo-novidades{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+        
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.texto-novidades{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* GALERIA */
+.galeria-titulo{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Readex Pro';
+    text-align: center;
+    color:white;
+    margin-top: 124px;
+    margin-bottom: 72px;
+}
+.imagem-galeria{
+    width: 212px;
+    height: 245px;
+}
+.primeira-fileira-imagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.segunda-fileira-imagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* FOOTER */
+.fundo-footer{
+    width: 100%;
+    height: 748.63px;
+    background: #AFBBF2;
+}
+.mapa-do-site{
+    display: flex;
+    justify-content: space-around;
+}
+.mapa-do-site h1{
+    text-transform: uppercase;
+}
+.mapa-do-site a{
+    text-decoration: none;
+    color:black;
+    }
+.contato{
+    margin-top: 30px;
+}
+.fileira-redes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.titulo-pagamentos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.titulo-pagamentos h1{
+    text-transform: uppercase;
+}
+.pagamentos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.informacoes-legais{
+    text-align: center;
+}
+
+
+/* LAYOUT PARA TABLETS */
+@media screen and (max-width:1200px) {
+    /* CABEÇALHO */
+    .menu{
+        display: none;
+        justify-content: space-around;
+        flex-direction: column;
+        z-index: 2;
+        background-color: black;
+        height: 500px;
+        width: 300px;
+        position: absolute;
+        right: 195px;
+        top: 85px;
+        
+    }
+    .menu-de-barras {
+        display: flex;
+    }
+    .menu-ativo{
+        display: flex;
+    }
+
+    /* DESTAQUES */
+    .esconder-destaque-1{
+        display: none;  
+    }
+    .container-dispositivos-menores{
+        width: 100vw;
+        background-color: #292E1E;
+    }
+    .img-destaque{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* NOVIDADES */
+    .fundo-novidades{
+        background: #AFBBF2;
+        width: 687px;
+        height: 581px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .dimensao-imagem-novidades{
+        width: 260px;
+        height: 302px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .alinhamento-conteudo-novidades{     
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .texto-novidades{
+        white-space: nowrap;
+    }
+    .conteudo-novidades{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* GALERIA */
+    .esconder-galeria-1{
+        display: none;
+    }
+    .imagem-galeria{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .primeira-fileira-imagens{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    /* FOOTER */
+    .mapa-do-site{
+        display: none;
+    }
+    .mapa-do-site-para-tablets a{
+        text-decoration: none;
+        color:black;
+        }
+    .fundo-footer{
+        width: 768px;
+        height: 963px;
+    }
+    .mapa-do-site-para-tablets{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Roboto';
+    }
+    .mapa-do-site-para-tablets h1{
+        text-transform: uppercase;
+        font-size: 35px;
+    }
+    .mapa-do-site-para-tablets h3{
+        font-size: 30px;
+    }
+    .mapa-item{
+        margin-top: 50px;
+    }
+    .redes-sociais-tablets{
+        white-space: nowrap;
+    }
+    .contato-tablets{
+        margin-top: 100px;
+    }
+    .redes-sociais-tablets{
+        margin-top: 88px;
+    }
+    .formas-de-pagamento{
+        margin-top: 200px;
+        align-items: center;
+    }
+    .img-mastercard{
+        width: 66px;
+        height: 51px;
+    }
+    .img-visa{
+        width: 110px;
+        height: 110px;
+    }
+    .img-elo{
+        width: 131px;
+        height: 131px;
+    }
+    .img-pix{
+        width: 159px;
+        height: 159px;
+    }
+    .img-boleto{
+        width: 127px;
+        height: 127px;
+    }
+}
+
+
+/* LAYOUT PARA CELULARES */
+@media screen and (max-width:450px){
+    /* CABEÇALHO */
+    .container{
+        width: 100%;
+    }
+    .cabeçalho{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-sem-texto{
+        display: flex;
+        margin-right: 116px;
+    }
+    .menu{
+        position: absolute;
+        right: 10px;
+        top: 100px;
+    }
+
+    /* BANNER */
+    .banner-celular{
+        display: flex;
+    }
+    .banner{
+        display: none;
+    }
+
+    /* DESTAQUES */
+    .destaques{
+        height: 541px;
+    }
+    .esconder-destaque-2{
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .esconder-destaque-1{
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagens-destaques{
+        flex-direction: column;
+    }
+    .img-destaque{
+        width: 229px;
+        height: 296px;
+        background-color: #AFBBF2;
+        margin-top: 15px;
+        margin-bottom: 5px;   
+    }
+    .xbox{
+        width: 189px;
+        height: 149px;
+    }
+    .img-destaque a{
+        font-size: 16px;
+      
+        width: 131px;
+        height: 26px;
+        padding-left: 26px;
+        padding-right: 26px; 
+    }
+    .img-destaque h2{
+        font-size: 29px;
+    }
+    .img-destaque h4{
+        font-size: 18px;
+    }
+    .ate-dez{
+        height: 28px;
+        width: 200px;
+        padding-left: 10px;
+    }
+    .botao-veja-mais{
+        background: #AFBBF2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        width: 131px;
+        height: 26px;
+        
+        font-weight: 700;
+        text-decoration: none;
+        color: black;
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+    /* NOVIDADES */
+    .fundo-novidades{
+        align-items: center;
+        justify-content: center;
+        
+        width: 290px;
+        height: 560px;
+    }
+    .alinhamento-conteudo-novidades{
+        flex-direction: column;
+    }
+    .dimensao-imagem-novidades{
+        width: 156px;
+        height: 181px;
+        margin-left: 62px;
+        margin-right: 62px;
+    }
+    .texto-novidades{
+        font-size: 24px;
+        line-height: 1.1;
+    }
+    .subtitulo-novidades{
+        font-size: 24px;
+    }
+
+    /* GALERIA */
+    .galeria-titulo{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .esconder-galeria-2{
+        display: none;
+    }
+    .galeria{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .primeira-fileira-imagens{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+    .imagem-galeria{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    /* FOOTER */
+    .mapa-do-site-para-tablets{
+        display: none;
+    }
+    .mapa-do-site-para-celulares{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        text-align: center;
+        color:black;
+    }
+    .fundo-footer{
+        height: 1030px;
+        width: 100vw;
+    }
+    .mapa-do-site-para-celulares a{
+        text-decoration:none;
+        color: black;
+    }
+    .fileira-redes-celulares{
+        margin-top: 10px;
+    }
+    .fileira-redes-celulares a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .formas-de-pagamento{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .titulo-pagamentos{
+        font-size: 45px;
+    }
+    .img-mastercard{
+        width: 30px;
+        height: 23px;
+    }
+    .img-visa{
+        width: 50px;
+        height: 50px;
+    }
+    .img-elo{
+        width: 60px;
+        height: 60px;
+    }
+    .img-pix{
+        width: 73px;
+        height: 73px;
+    }
+    .img-boleto{
+        width: 58px;
+        height: 58px;
+    }
+    .pagamentos{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .primeira-fileira-pagamentos{
+        height: 45px;
+    }
+    .segunda-fileira-pagamentos{
+        height: 45px;
+    }
+    .informacoes-legais h3{
+        font-size: 14px;
+    }
+}
+
+
+/* CONFIGURAÇÕES GERAIS FINAIS */
+
+a:hover{
+    color: #08558b;
+}

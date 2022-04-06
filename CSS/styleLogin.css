@@ -1,0 +1,108 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+body{
+    background-image: url(../IMG/Backgroud-login.jpg);
+    background-size: cover;
+}
+
+.container-login{
+    height:350px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.container-login h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #323232;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.botao{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #08558B;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao:hover{
+    background-color: #1b223C;
+    transition: .5s;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input:focus{
+    border-bottom: 2px solid cornflowerblue;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* LAYOUT PARA TABLETS */
+@media screen and (max-width: 860px) {
+    body{
+        background-image: url(../IMG/Backgroud-login-tablet.jpg);
+    }
+}
+
+/* LAYOUT PARA CELULARES */
+@media screen and (max-width: 410px){
+    body{
+        background-image: url(../IMG/Backgroud-login-celular.jpg);
+    }
+    .container-login{
+        height:320px;
+        width: 290px;
+        margin-top: 15vh;
+    
+        border-radius: 20px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    
+}
+
